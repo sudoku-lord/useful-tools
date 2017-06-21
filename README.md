@@ -4,8 +4,9 @@ A collection of simple tools which people may find useful.
 Password Generation: How to Use
 
 1) Download related files (createpassword, password.cpp)
-2) chmod +x createpassword
-3) cp createpassword /usr/local/bin
+2) Open Terminal to the folder where the downloaded files are.
+3) chmod +x createpassword
+4) cp createpassword /usr/local/bin
 
 To run it, type createpassword followed by 1) the number of passwords you want, and 2) the length of the passwords
 ex: createpassword 10 10 produces:

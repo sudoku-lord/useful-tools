@@ -21,4 +21,6 @@ HierW61Tey
 M#Aentiii1
 BVD&0GxCpa
 
-COMING SOON: can generate a list of passwords whose lengths fall within a specifies range.
+Note: this will only work in the directory where createpassword and password.cpp are. You should ideally move them into a place where you'll use them most often (aka your home directory, if you want to be able to type in the command as soon as you open your Terminal window).
+
+COMING SOON: will be able to generate a list of passwords whose lengths fall within a specifies range!

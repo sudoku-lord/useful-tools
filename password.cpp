@@ -72,8 +72,11 @@ int main(int argc, char * argv[]) {
         }
     } else {
         for (int i = 0; i < num_passwords; ++i) {
-            cout << password_generator(length);
-            cout << "\n";
+            string pass = password_generator(length);
+            if (pass.length() == length) {
+                cout << pass;
+                cout << "\n";
+            }
         }
     }
 }

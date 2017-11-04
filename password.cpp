@@ -15,6 +15,7 @@
 using namespace std;
 
 string password_generator(int length) {
+    assert(length > 0);
     string password;
     int numPoint = rand() % length;
     int charPoint = rand() % length;
